@@ -1,3 +1,0 @@
-This is a test
-Keep testing things in this document so we can be sure it works.
-yes it is indeed working

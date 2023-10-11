@@ -15,7 +15,7 @@ cur.execute('''
     )
 ''')
 
-cur.execute(''' 
+cur.execute('''
     CREATE TABLE IF NOT EXISTS data (
     temperature integer,
     humidity integer,
