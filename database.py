@@ -6,7 +6,6 @@ cur = conn.cursor()
 cur.execute("PRAGMA foreign_keys = ON")
 
 
-#initial schema layout
 cur.execute('''
     CREATE TABLE IF NOT EXISTS classrooms (
     id integer PRIMARY KEY AUTOINCREMENT,
