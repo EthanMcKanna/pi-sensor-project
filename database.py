@@ -1,4 +1,7 @@
-import os
+'''
+Current database schemas:
+'''
+#import os
 import sqlite3
 
 conn = sqlite3.connect('classrom_data.db')
