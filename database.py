@@ -1,6 +1,3 @@
-'''
-Current database schemas:
-'''
 #import os
 import sqlite3
 
