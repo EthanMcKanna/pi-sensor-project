@@ -68,6 +68,3 @@ def distance_changed(x, y, z):
 def insert_data(temperature, humidity, x, y, z, audio, class_id):
     cur.execute("INSERT INTO data (temperature, humidity, distance_changed, audio, recorded_time, class_id) VALUES (?, ?, ?, ?, ?, ?)", (temperature, humidity, distance_changed(x, y, z), audio, dt.now(), class_id))
     conn.commit()
-
-
-print(distance_changed(25, 16, 41))
