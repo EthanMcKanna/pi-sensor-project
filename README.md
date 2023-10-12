@@ -21,4 +21,4 @@ https://wiki.seeedstudio.com/Grove-OLED-Display-1.12-SH1107_V3.0/
 3. Setup Raspberry Pi with Grove hat and sensors.
 4. Complete data collection code and integrate all the inputs from the sensors.
 5. Rotate Raspberry Pi location to new room every week (set script to be recording correct classroom) and monitor data.
-6. Analize data, create charts, uncover trends.
+6. Analyze data, create charts, uncover trends.
