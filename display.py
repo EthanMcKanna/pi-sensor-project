@@ -220,7 +220,6 @@ class GroveOledDisplay128x64(object):
     def puts(self, text):
         for c in text:
             self.putc(c)
-
     def show_image(self, image):
         from PIL import Image
         import numpy as np
@@ -241,13 +240,14 @@ class GroveOledDisplay128x64(object):
                 self.send_data(data)
 
 
+
 def main():
     display = GroveOledDisplay128x64()
 
     display.set_cursor(0, 0)
-    display.puts('hello') #insert code for humidity thing
+    display.puts('too close') #insert code for humidity thing
     display.set_cursor(1, 4)
-    display.puts('world')
+    display.puts('back off')
 
 if __name__ == "__main__":
     main()
